@@ -8,6 +8,7 @@
 # TODO: Convert these JavaScript console.log statements to Python print statements
 # JavaScript: console.log("Hello, World!");
 # Python: 
+print("Hello World!")
 
 
 # JavaScript: console.log("Welcome to programming!");
@@ -17,7 +18,7 @@
 # TODO: Convert this JavaScript output with multiple items
 # JavaScript: console.log("Name:", "Alex", "Age:", 16);
 # Python: 
-
+print("Name:",'Alex',"Age:",16)
 
 # ========================================
 # PART 2: String Concatenation Practice
@@ -33,12 +34,17 @@ your_name = "Your Name Here"  # TODO: Change this to your actual name
 
 # JavaScript: console.log("Hello" + " " + name);
 # Python: 
+name = "Jenna"
+grade = 11
+print("Hello" + name)
 
+print("I am in grade" , grade)
 
 # TODO: Convert this JavaScript template literal to Python f-string
 # JavaScript: console.log(`Hello ${name}!`);
 # Python: 
-
+print(f"Hello {name}")
+print(f"{name} will be in grade {grade} next year")
 
 # TODO: Use Python's unique comma feature (no JS equivalent!)
 # Print "Hello" and your_name with automatic spacing
@@ -52,6 +58,7 @@ your_name = "Your Name Here"  # TODO: Change this to your actual name
 
 # JavaScript: console.log("*".repeat(20));
 # Python: 
+print("=" * 40)
 
 
 # JavaScript: console.log("Hi! ".repeat(3));
